@@ -1,0 +1,254 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*END RESET.CSS*/
+
+
+.wrapper{
+	max-width:1920px;
+	width:100%;
+	margin: 0 auto;
+}
+
+header {
+	height:100px;
+	background-color: #ebecee;
+}
+header .menu ul{
+	display:flex;
+	width:340px;
+	justify-content: space-around;
+}
+header .menu ul li a{
+	text-decoration: none;
+	color:#333333;
+	font-size:16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: medium;
+}
+header .btn a{
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 50px;
+	background-color: white;
+	border-radius: 30px;
+}
+header .btn, header .menu, header .logo {
+	display: inline-block;
+}
+
+header .logo{
+	margin-top: 70px;
+	margin-left: 2.5%;
+}
+header .menu{
+	margin-left: 55%;
+	position: relative;
+	top:-20px;
+}
+header .btn{
+	margin-left:2%;
+	position: relative;
+	top:-20px;
+}
+.container2 {
+	background-image: url('./img/background_top.png');
+	height: calc(100vh - 140px);
+	background-repeat: no-repeat;
+	background-color: #ebecee;
+	background-position-x: 100%;
+	background-size: contain;
+}
+.container2 div{
+	width: 60%;
+	text-align: center;	
+}
+.container2 div p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	padding-top: 18%;
+	margin-bottom: 9%;
+}
+.container2 div .btn{
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 87px;
+	background-color: white;
+	border-radius: 30px;
+	text-align: center;
+}
+.center {
+	max-width: 1200px;
+	width:100%;
+	margin:0 auto;
+}
+
+.container3 h2{
+	margin-top: 100px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color:#141311;
+	text-align:center;
+}
+
+.container3 p{
+	margin-bottom: 35px;
+	margin-top: 23px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #333333;
+	font-size:14px;
+	text-align: center;
+	line-height: 2;
+}
+.container3 .cards{
+	display: flex;
+	justify-content: center;
+}
+.container3 .cards .item h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:22px;
+	font-weight: 300;
+	margin-top: 42px;
+	padding-left:34px;
+}
+.container3 .cards .item p{
+	padding-left: 34px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	margin-right:47px;
+	text-align: left;
+}
+.container6{
+	background-image: url(./img/background_black.png);
+	height: 1920px;
+	background-repeat: no-repeat;
+}
+.container6 .center h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 48px;
+	color: #ffffff;
+	padding-top: 250px;
+	padding-bottom: 135px;
+}
+.container6 .center .cards{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.container6 .cards h3 {
+	font-size: 22px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	margin-top: 35px;
+	margin-bottom: 45px;
+}
+.container6 .cards .cost {	
+	font-size: 80px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #c89d28;
+}
+.container6 .cards .dscr1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #767676;
+	margin-bottom: 90px;
+	padding: 0px 80px;
+	line-height: 2;
+}
+.container6 .cards .btn1{
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 87px;
+	background-color: white;
+	border-radius: 30px;
+	text-align: center;
+}
+.container6 .cards .btn2{
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 50px;
+	background-color: white;
+	border-radius: 30px;
+	text-align: center;
+	margin-top: 90px;
+}
+.container6 .cards .btn3{
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 50px;
+	background-color: white;
+	border-radius: 30px;
+	text-align: center;
+	margin-top: 90px;
+}
+.container6 .cards .btn a{
+	text-decoration: none;
+	text-align: center;
+}
